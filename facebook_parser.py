@@ -16,7 +16,7 @@ driver = webdriver.Chrome(chrome_options=chrome_options)
 # вход на страницу сайта
 driver.get('https://www.facebook.com/NYCoin/')
 #ожидание 5 сек для прогрузки стр
-time.sleep(5)
+time.sleep(10)
 # поиск строки ввода логина и передача ему ключа
 #element = driver.find_element_by_xpath("//input[@class='inputtext login_form_input_box']").send_keys("phelion@mail.ru")
 #ожидание 5 сек
@@ -29,7 +29,12 @@ time.sleep(5)
 #element = driver.find_element_by_xpath("//input[@data-testid='royal_login_button']").click()
 
 #time.sleep(5)
-
+i = 0
+while i < 5:
+    element_scroll = driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    i+=1
+    time.sleep(10)
+time.sleep(5)
 
 #
 #

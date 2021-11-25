@@ -23,7 +23,7 @@ time.sleep(10)
 #time.sleep(5)
 # поиск строки с паролем и передача ему ключа
 #element = driver.find_element_by_xpath("//input[@data-testid='royal_pass']").send_keys("isa5693065")
-#ожидание 5 сек
+
 #time.sleep(5)
 
 #element = driver.find_element_by_xpath("//input[@data-testid='royal_login_button']").click()

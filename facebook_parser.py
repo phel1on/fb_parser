@@ -19,7 +19,7 @@ driver.get('https://www.facebook.com/NYCoin/')
 time.sleep(10)
 # поиск строки ввода логина и передача ему ключа
 #element = driver.find_element_by_xpath("//input[@class='inputtext login_form_input_box']").send_keys("phelion@mail.ru")
-#ожидание 5 сек
+
 #time.sleep(5)
 # поиск строки с паролем и передача ему ключа
 #element = driver.find_element_by_xpath("//input[@data-testid='royal_pass']").send_keys("isa5693065")
